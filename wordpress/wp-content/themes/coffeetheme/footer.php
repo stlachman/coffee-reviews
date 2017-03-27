@@ -1,5 +1,10 @@
 
     </div><!-- /.container -->
+    <footer class="main-footer">
+      <div class="container">
+        <p class="text-footer">Built with Coffee and Love by Seth.</p>
+    </div>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
