@@ -1,7 +1,7 @@
 
 <?php get_header(); ?>
   
-<h1 class="starter-template">Coffee Reviews!</h1>
+<h1 class="starter-template">Welcome to Coffee Cupping!</h1>
             <p class="lead">Check Out Our Newest Coffee!</p>
             <table class="table table-hover">
                 <thead>
@@ -13,7 +13,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="coffee-review.html">Ethiopian</a></td>
+                        <td><a href="coffee-review.html">Ethiopia Sidama Natural</a></td>
                         <td>3.5</td>
                         <td>43</td>
                     </tr>
