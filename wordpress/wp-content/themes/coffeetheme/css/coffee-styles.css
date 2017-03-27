@@ -2,6 +2,29 @@ body {
   padding-top: 50px;
 }
 
+.navbar-inverse {
+    background-color: #d9eae4;
+    border-color: #d9eae4;
+}
+
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #999;
+    background-color: #d9eae4;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #d9eae4;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #999;
+    border-color: #d9eae4;
+} 
 .main-footer {
   text-align: center;
   bottom: 0;
