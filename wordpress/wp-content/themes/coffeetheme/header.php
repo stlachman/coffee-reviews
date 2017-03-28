@@ -45,7 +45,10 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
-      </div>
+      </div><!-- container -->
     </nav>
    
-    <div class="container">
+    <div class="container page-wrap">
+
+      <h1 class="starter-template main-h1"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo('name'); ?></a></h1
+      <p class="lead"><?php echo get_bloginfo('description'); ?></p>

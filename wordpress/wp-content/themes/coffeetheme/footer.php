@@ -1,9 +1,12 @@
 
     </div><!-- /.container -->
+
     <footer class="main-footer">
-      <div class="container">
-        <p class="text-footer">Built with Coffee and Love by Seth.</p>
-    </div>
+        <p class="text-footer">Built with Coffee and Love by Seth</p>
+
+        <p> 
+            <a href="#">Back to top</a>
+        </p>
     </footer>
 
 
@@ -15,3 +18,6 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <?php wp_footer(); ?>
+
+    </body>
+    </html>
