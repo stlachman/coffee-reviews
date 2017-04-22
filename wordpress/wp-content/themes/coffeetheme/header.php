@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/css/coffee-styles.css" rel="stylesheet">
 
     <title>Coffee Cupping</title>
@@ -24,8 +26,11 @@
   </head>
 
   <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div id="hero-image">
+      <h1 class="header-text"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo('name'); ?></a></h1>
+      <p class="lead"><?php echo get_bloginfo('description'); ?></p>
+    </div>
+    <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,15 +39,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Coffee Cupping</a>
+          <a class="navbar-brand" href="/wordpress/">Coffee Cupping</a>
         </div>
+
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#coffees">Coffees</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="coffees">Coffees</a></li>
+            <li><a href="news">News</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div><!-- container -->
@@ -50,5 +55,3 @@
    
     <div class="container page-wrap">
 
-      <h1 class="starter-template main-h1"><a href="<?php bloginfo('wpurl');?>"><?php echo get_bloginfo('name'); ?></a></h1
-      <p class="lead"><?php echo get_bloginfo('description'); ?></p>

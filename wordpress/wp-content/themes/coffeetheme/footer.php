@@ -2,7 +2,7 @@
     </div><!-- /.container -->
 
     <footer class="main-footer">
-        <p class="text-footer">Built with Coffee and Love by Seth</p>
+        <p class="text-footer">Built with <i class="fa fa-coffee" aria-hidden="true"></i> and <i class="fa fa-heart" aria-hidden="true"></i> by Seth</p>
 
         <p> 
             <a href="#">Back to top</a>

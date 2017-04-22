@@ -1,9 +1,38 @@
-body {
-  padding-top: 50px;
-}
+
 
 html, body {
     height: 100%;
+}
+
+body {
+    font-family: 'Asar', serif;
+}
+
+#hero-image {
+    background-image: url("http://localhost:8888/wordpress/wp-content/uploads/2017/04/coffee-cup.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*padding: 200px 32px;*/
+    height: 536px;
+    position: relative;
+    text-align: center;
+}
+
+.header-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    /*position: absolute;*/
+    padding-top: 172px;
+}
+
+.header-text a,
+.lead           {
+    color: #fff;
+}
+
+.header-text a:hover {
+    text-decoration: none;
 }
 
 .navbar-inverse {
